@@ -456,11 +456,11 @@
 							<td style="color: #A00C0E">								
 								<a href="professores.php?pg=professor&amp;op=visualizar&professor=<?php echo $cod_professor; ?>" ><img title="Visualizar o Professor <?php echo $nome_professor; ?>" src="img/lupa_turma.png" width="18" height="18" border="0"></a>
 								<a href="professores.php?pg=professor&amp;op=atualizar&professor=<?php echo $cod_professor; ?>"><img title="Atualizar o Professor <?php echo $nome_professor; ?>" src="img/editar.png" width="18" height="18" border="0"></a>
-								<?php if($status_professor == 0){ ?>
+								<?php /* if($status_professor == 0){ ?>
 									<a href="professores.php?pg=professor&amp;op=trocaStatus&func=ativa&professor=<?php echo $cod_professor; ?>"><img title="Ativar o Professor <?php echo $nome_professor; ?>" src="img/success.png" width="18" height="18" border="0"></a>
 								<?php } else { ?>
 									<a href="professores.php?pg=professor&amp;op=trocaStatus&func=inativa&professor=<?php echo $cod_professor; ?>"><img title="Inativar o Professor <?php echo $nome_professor; ?>" src="img/error.png" width="18" height="18" border="0"></a>						
-								<?php } ?>	
+								<?php } */ ?>	
 							</td>							
 				  		</tr>
 					<?php } ?>
