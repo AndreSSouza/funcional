@@ -438,7 +438,7 @@
 						$nome_professor = $resultado_consulta_select_professor['nome_professor'];
 						$cpf_professor = $resultado_consulta_select_professor['cpf'];
 						$email_professor = $resultado_consulta_select_professor['email'];
-						$status_professor = $resultado_consulta_select_professor['status_professor'];
+						//$status_professor = $resultado_consulta_select_professor['status_professor'];
 					?>
 				  		<tr>
 							<td>
